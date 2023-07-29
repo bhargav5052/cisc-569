@@ -5,6 +5,6 @@ jobs:
   build: 
      runs-on: ubuntu-latest
  
-     steps: 
-        -name: say hello
-        run: echo"Hello,world!"
+    steps: 
+    - name: say hello
+      run: echo"Hello,world!"
